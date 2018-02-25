@@ -16,11 +16,11 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="product-block">
-                    <a class="product-image" href="#">
+                    <a class="product-image" href="./products/anti-ageing-cream">
                         <img src="./images/158198-OW27LC-436.jpg" alt="">
                         <div class="overlay">purchase now</div>
                     </a>
-                    <h4><a href="#">Anti-Ageing Cream/Serum</a></h4>
+                    <h4><a href="./products/anti-ageing-cream">Anti-Ageing Cream/Serum</a></h4>
                     <div class="price">
                         <h5>£49.95</h5>
                         <span>£99.99</span>
@@ -29,11 +29,11 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="product-block">
-                    <a class="product-image" href="#">
+                    <a class="product-image" href="./products/anti-wrinkles-cream">
                         <img src="./images/158198-OW27LC-436.jpg" alt="">
                         <div class="overlay">purchase now</div>
                     </a>
-                    <h4><a href="#">Anti-Wrinkles cream</a></h4>
+                    <h4><a href="./products/anti-wrinkles-cream">Anti-Wrinkles cream</a></h4>
                     <div class="price">
                         <h5>£49.95</h5>
                         <span>£99.99</span>
@@ -70,16 +70,36 @@
         <div class="container">
             <h2>FROM THE BLOG</h2>
             <div class="blog-slider">
-                <?php for ($i=0; $i < 5; $i++) : ?>
+
                 <div class="post-block">
-                    <a class="post-image" href="#">
-                        <img src="./images/1064.jpg" alt="">
-                    </a>
-                    <h4><a href="#">Happy and Healthy Skincare Tips</a></h4>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
-                    <h5><a href="#">Read More</a></h5>
+                    <a class="post-image" href="./posts/dos-and-donts-for-a-beautiful-skin"><img src="./images/1056.jpg" alt=""></a>
+                    <h4><a href="./posts/dos-and-donts-for-a-beautiful-skin">DOS AND DON’TS FOR A BEAUTIFUL SKIN</a></h4>
+                    <p>The skin is a reflection of how you take care of it. It is the largest organ of the body and it determines if you are living well or not. Here are a few skin care tips you should follow if you want a skin that is healthy and fresh...</p>
+                    <h5><a href="./posts/dos-and-donts-for-a-beautiful-skin">Read More</a></h5>
                 </div>
-                <?php endfor; ?>
+
+                <div class="post-block">
+                    <a class="post-image" href="./posts/skincare-tips-for-men"><img src="./images/mubariz-mehdizadeh-364026-unsplash.jpg" alt=""></a>
+                    <h4><a href="./posts/skincare-tips-for-men">Skincare tips for Men</a></h4>
+                    <p>Men are usually lackadaisical when it comes to taking care of their skin. Many just wake up and have their bath before going to work. Sometimes they even forget to apply lotion on their skin before leaving. This is not a good habit as your skin...</p>
+                    <h5><a href="./posts/skincare-tips-for-men">Read More</a></h5>
+                </div>
+
+                <div class="post-block">
+                    <a class="post-image" href="./posts/skincare-tips-that-will-leave-your-skin-looking-fresh"><img src="./images/1064.jpg" alt=""></a>
+                    <h4><a href="./posts/skincare-tips-that-will-leave-your-skin-looking-fresh">Skincare tips that will leave your skin looking fresh</a></h4>
+                    <p>Many are blessed with naturally beautiful skin while some people have to work hard to make it look flawless and healthy. This article will give you general skincare tips that will leave your skin looking vibrant...</p>
+                    <h5><a href="./posts/skincare-tips-that-will-leave-your-skin-looking-fresh">Read More</a></h5>
+                </div>
+
+                <div class="post-block">
+                    <a class="post-image" href="./posts/happy-and-healthy-skincare-tips"><img src="./images/3296.jpg" alt=""></a>
+                    <h4><a href="./posts/happy-and-healthy-skincare-tips">Happy and Healthy Skincare Tips</a></h4>
+                    <p>The human skin is just like every other part of the body. It reacts to psychological and emotional changes. If you get tired, it would reflect on your skin...</p>
+                    <h5><a href="./posts/happy-and-healthy-skincare-tips">Read More</a></h5>
+                </div>
+
+
             </div>
         </div>
     </section>

@@ -41,10 +41,12 @@
             </ul>
         </div>
         <div id="navbar-example" class="bottom-nav navbar-fixed-top">
-            <div class="brand">
-                Skin
-                <span>Care</span>
-            </div>
+            <a href="./">
+                <div class="brand">
+                    Skin
+                    <span>Care</span>
+                </div>
+            </a>
 
             <div class="navbar navbar-expand-md">
                 <button class="navbar-toggler">
@@ -62,7 +64,7 @@
                             <a href="./shop">Our Products</a>
                         </li>
                         <li>
-                            <a href="#">Blog</a>
+                            <a href="./blog">Blog</a>
                         </li>
                         <li>
                             <a href="./contact">Contact us</a>
@@ -74,7 +76,7 @@
                     <a href="./">Home</a>
                     <a href="./about">About</a>
                     <a href="./shop">Our Products</a>
-                    <a href="#">Blog</a>
+                    <a href="./blog">Blog</a>
                     <a href="./contact">Contact us</a>
                 </nav>
                 </div>
@@ -91,14 +93,14 @@
                 <div class="content">
                     <h1>Anti-Ageing Cream/Serum</h1>
                     <p>Regain your youthful look with anti-ageing serum from COMPANYNAME</p>
-                    <a href="#">Buy now</a>
+                    <a href="./products/anti-ageing-cream">Buy now</a>
                 </div>
             </div>
             <div class="slide">
                 <div class="content">
                     <h1>Anti-Wrinkles cream</h1>
                     <p>Get rid of your fine lines with anti-wrinkles cream from COMPANYNAME</p>
-                    <a href="#">Buy now</a>
+                    <a href="./products/anti-wrinkles-cream">Buy now</a>
                 </div>
             </div>
         </div>

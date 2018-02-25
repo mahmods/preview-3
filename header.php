@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <base href="https://preview3-mahmoud.herokuapp.com/">
+    <base href="http://preview3-mahmoud.herokuapp.com/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -42,11 +42,12 @@
             </ul>
         </div>
         <div id="navbar-example" class="bottom-nav navbar-fixed-top">
-            <div class="brand">
-                Skin
-                <span>Care</span>
-            </div>
-
+            <a href="./">
+                <div class="brand">
+                    Skin
+                    <span>Care</span>
+                </div>
+            </a>
             <div class="navbar navbar-expand-md">
                 <button class="navbar-toggler">
                     <i class="fas fa-bars"></i>
@@ -63,7 +64,7 @@
                             <a href="./shop">Our Products</a>
                         </li>
                         <li>
-                            <a href="#">Blog</a>
+                            <a href="./blog">Blog</a>
                         </li>
                         <li>
                             <a href="./contact">Contact us</a>
@@ -75,7 +76,7 @@
                         <a href="./">Home</a>
                         <a href="./about">About</a>
                         <a href="./shop">Our Products</a>
-                        <a href="#">Blog</a>
+                        <a href="./blog">Blog</a>
                         <a href="./contact">Contact us</a>
                     </nav>
                 </div>

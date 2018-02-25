@@ -708,7 +708,6 @@ a:hover {
 }
 
 .blog-block h1 {
-    font-family: 'Roboto Condensed', sans-serif;
     font-size: 16px;
     line-height: 22px;
     font-weight: bold;
@@ -720,8 +719,7 @@ a:hover {
 }
 
 .blog-block p {
-    color: #545454;
-    font-family: 'Roboto', sans-serif;
+    color: #656565;
     font-size: 13px;
     line-height: 22px;
     margin: 0;
@@ -729,17 +727,23 @@ a:hover {
 }
 
 .blog-block .blog-link {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 13px;
-    line-height: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fa5400 !important;
     transition: color 0.3s ease-in-out;
+    
+    float: none;
+    color: #fff !important;
+    background: #cea679;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 23px;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .blog-block .blog-link:hover {
-    color: #a0a0a0 !important;
+    background: #666;
 }
 
 #shop {
@@ -756,13 +760,26 @@ a:hover {
     align-self: center;
 }
 
+#product .product-content h2 {
+    color: #cea679;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+
+#product .product-content ul {
+    list-style-type: square;
+    color: #707070;
+}
+
+#product .product-content p {
+    color: #707070;
+}
+
 #post span {
-    color: #545454;
-    font-family: 'Roboto', sans-serif;
+    color: #767676;
+    
     font-size: 13px;
-    line-height: 22px;
-    font-weight: normal;
-    font-style: normal;
 }
 
 #post img {
@@ -771,32 +788,23 @@ a:hover {
 }
 
 #post h1 {
-    color: #fa5400;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 28px;
-    line-height: 36px;
-    font-weight: bold;
-    text-transform: uppercase;
     margin: 0;
+    color: #222222;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 #post .content {
     margin-top: 30px;
-    color: #545454;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    line-height: 22px;
-    font-weight: normal;
-    font-style: normal;
+    color: #707070;
 }
 
 #post .content h2 {
-    color: #545454;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 28px;
-    line-height: 36px;
-    font-weight: bold;
-    text-transform: uppercase;
+    color: #cea679;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+    font-size: 22px;
 }
 
 /* ==========================================================================
@@ -807,14 +815,31 @@ a:hover {
     margin: 80px 50px;
 }
 
+#product .product-overview {
+    margin-top: 30px;
+}
+
 #product .price {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
-    line-height: 26px;
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #e5e5e5;
+    padding: 20px 0;
+}
+
+#product .price span {
+    font-size: 24px;
+    font-weight: 400;
     text-transform: uppercase;
-    color: #fa5400;
-    margin-bottom: 20px;
+    text-decoration: underline;
+    color: #cea679;
+    margin-right: 10px;
+}
+#product .old-price {
+    color: #767676;
+    text-decoration: line-through;
+    font-weight: 400;
+    font-size: 20px;
+    
 }
 
 #product .btn-purchase {
@@ -822,7 +847,6 @@ a:hover {
     transition: all .3s ease-in-out;
     color: #ffffff !important;
     background-color: #000000;
-    font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
     line-height: 48px;
     font-weight: bold;
@@ -835,30 +859,26 @@ a:hover {
 
 #product .btn-purchase:hover {
     color: #000;
-    background-color: #fa5400;
+    background-color: #cea679;
 }
 
-#product .price span {
-    color: #545454;
-    text-decoration: line-through;
-}
 
-#product p {
-    color: #545454;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    line-height: 22px;
+
+#product .product-desc {
+    color: #707070;
+    font-size: 14px;
+    line-height: 24px;
     margin: 0;
     margin-top: 10px;
     margin-bottom: 30px;
+    border-top: 1px solid #e5e5e5;
+    padding: 25px 0 0px;
 }
 
 #product h1 {
-    color: #101010;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 28px;
-    line-height: 36px;
-    font-weight: bold;
+    color: #222222;
+    font-size: 24px;
+    font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
@@ -868,6 +888,26 @@ a:hover {
     margin: auto 0;
     width: auto;
     max-height: 400px;
+}
+
+#product .product-content {
+    margin-top: 80px;
+}
+
+#product .product-content h2 {
+    color: #cea679;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+
+#product .product-content ul {
+    list-style-type: square;
+    color: #707070;
+}
+
+#product .product-content p {
+    color: #707070;
 }
 
 /* ==========================================================================
@@ -890,6 +930,7 @@ a:hover {
     font-size: 2em;
     font-weight: 700;
     position: relative;
+    text-align: center;
 }
 
 .page-content h2::after {
@@ -914,6 +955,67 @@ a:hover {
     color: #777;
     text-align: center;
     line-height: 35px;
+}
+
+/* ==========================================================================
+   Contact Section
+   ========================================================================== */
+
+   .contact-form {
+       margin-bottom: 50px;
+   }
+.contact-form input, .contact-form textarea {
+    border: 2px solid #cea679;
+    color: #b3a29d;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 46px;
+    vertical-align: middle;
+    padding: 0 1em;
+}
+
+.form-control:focus{
+    border-color: #cea679;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.contact-form input {
+    height: 48px;
+}
+
+.button {
+    margin-top: 40px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1em;
+    background-color: #cea679;
+    border: 2px solid rgba(167,228,194,0);
+    padding: 14px 48px;
+    align-self: flex-start;
+    position: relative;
+    transition: all 0.15s linear;
+}
+
+.button:hover {
+    text-decoration: none;
+    color: #cea679;
+    background-color: rgba(167,228,194,0);
+    border-color: #cea679;
+}
+
+.button::before {
+    content: "";
+    width: 26px;
+    height: 6px;
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    background-color: #ac8051
+}
+
+.button:hover::before {
+    background-color: #cea679
 }
 
 /* ==========================================================================
