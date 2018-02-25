@@ -28,14 +28,7 @@ $(document).ready(function () {
         });
     });
     var wow = new WOW().init();
-    var feed = new Instafeed({
-        accessToken: '548157251.1677ed0.4a647ef9795c44d2906633ba2915ca00',
-        get: 'user',
-        limit: 8,
-        userId: 'self',
-        resolution: 'standard_resolution',
-    });
-    feed.run();
+
     $('.header-slider').slick({
         slidesToShow: 1,
         loop: true,

@@ -111,7 +111,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
 </section>
 
-<script type="text/javascript" src="./js/contact-form.js"></script>
+<script type="text/javascript" src="./scripts/contact-form.js"></script>
 <script type="text/javascript">
     new ContactForm('#contact-form');
 </script>

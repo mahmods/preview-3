@@ -24,28 +24,17 @@
 <body>
     <header class="header">
         <div class="top-nav">
-            <span>
-                <i class="fa fa-phone"></i> (08) 123 456 7890</span>
-            <span>
-                <i class="far fa-envelope-open"></i> yourmail@domain.com</span>
+            <span><i class="fa fa-phone"></i> (08) 123 456 7890</span>
+            <span class="d-none d-md-block"><i class="far fa-envelope-open"></i> yourmail@domain.com</span>
             <ul>
-                <li>
-                    <a class="twitter" href="#">twitter</a>
-                </li>
-                <li>
-                    <a class="face" href="#">face</a>
-                </li>
-                <li>
-                    <a class="instagram" href="#">instagram</a>
-                </li>
+                <li><a class="twitter" href="#">twitter</a></li>
+                <li><a class="face" href="#">face</a></li>
+                <li><a class="instagram" href="#">instagram</a></li>
             </ul>
         </div>
         <div id="navbar-example" class="bottom-nav navbar-fixed-top">
             <a href="./">
-                <div class="brand">
-                    Skin
-                    <span>Care</span>
-                </div>
+                <div class="brand">Skin<span>Care</span></div>
             </a>
 
             <div class="navbar navbar-expand-md">
